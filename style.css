@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+body{
+    background-color: #F1F2F4;
+}
+
+.navbar{
+    height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid transparent;
+    background-color: white;
+}
+
+.nav_logo{
+    height: 66px;
+    width: 160px;
+}
+
+.logo{
+    background-image: url("Pictures/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 65px;
+    width: 100%;
+    border: none;
+}
+
+.nav_search{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 710px;
+    height: 40px;
+    background-color: #eef3fd;
+    border-radius: 6px;
+    border: none;
+}
+
+.search_bar{
+    height: 40px;
+    width: 100%;
+    background-color: #eef3fd;
+    font-size: 1rem;
+    border: none;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border: none;
+
+}
+
+.search_logo{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #b2b4ba;
+}
+
+.login{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 111px;
+    height: 40px;
+    font-size: 1rem;
+}
+.login:hover{
+    color:white;
+    background-color: blue;
+    border-radius: 6px;
+}
+.login_logo{
+    font-size: 1.3rem;
+}
+
+.arrow{
+    font-size: 0.85rem;
+}
+
+.cart{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1rem;
+}
+.cart_logo{
+    width: 32px;
+    font-size: 1.3rem;
+    margin-right: 5px;
+}
+
+.seller{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.seller_logo{
+    width: 25px;
+    font-size: 1.3rem;
+    margin-right: 7px;
+}
+
+.menu_logo{
+    width: 41px;
+    font-size: 1.3rem;
+    color: black;
+}
+
+.item_panel{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    margin: 10px 16px;
+    height:126px;
+}
+
+.box{
+    height: 126px;
+    width: 8%;
+    
+}
+
+.item_1, .item_2, .item_3, .item_4, .item_5, .item_6, .item_7, .item_8, .item_9{
+    text-align: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.box1_img, .box2_img, .box3_img, .box4_img, .box5_img, .box6_img, .box7_img, .box8_img, .box9_img{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 16px 16px 16px 24px;
+    height: 50px;
+}
+
+.banner_1{
+    margin: 10px 16px;
+    height:250px;
+}
+
+.banner1_img{
+    height: 250px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner_2{
+    margin: 10px 16px;
+    height:216px;
+}
+
+.banner2_img{
+    height: 216px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.second_panel{
+    display: flex;
+}
+.item_panel2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 320px;
+    margin-left: 16px;
+    width: 75%;
+    background-color: white;
+    margin-right: 10px;
+}
+
+
+.container{
+    align-items: center;
+    width: 20%;
+    height: 244px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.prod_1, .prod_2, .prod_3, .prod_4, .prod_5{
+    text-align: center;
+    align-items: center;
+    font-size: 0.85rem;
+
+}
+
+
+.prod1_img, .prod2_img, .prod3_img, .prod4_img, .prod5_img{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding: 16px 16px 16px 24px;
+    height: 152px;
+}
+
+p{
+     font-weight: 700;
+     margin-top: 5px;
+}
+
+.side_panel{
+    height: 320px;
+    width: 22%;
+    margin-right: 10px;
+}
+
+.side_img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 320px;
+}
+
+.third_panel, .fourth_panel{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contain{
+    height: 260px;
+    width: 100%;
+    margin: 10px 16px;
+}
+
+.boximg_1, .boximg_2, .boximg_3, .boximg_4, .boximg_5, .boximg_6{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 260px;
+}
+
+
