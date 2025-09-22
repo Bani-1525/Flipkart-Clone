@@ -233,7 +233,7 @@ p{
     height: 320px;
 }
 
-.third_panel, .fourth_panel, .fifth_panel, .sixth_panel{
+.third_panel, .fourth_panel{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -245,7 +245,7 @@ p{
     margin: 10px 16px;
 }
 
-.boximg_1, .boximg_2, .boximg_3, .boximg_4, .boximg_5, .boximg_6, .boximg_7, .boximg_8, .boximg_9, .boximg_10, .boximg_11, .boximg_12{
+.boximg_1, .boximg_2, .boximg_3, .boximg_4, .boximg_5, .boximg_6{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -265,7 +265,7 @@ p{
     background-position: center;
 }
 
-.product_panel1, .product_panel2, .product_panel3{
+.product_panel1, .product_panel2, .product_panel3, .product_panel4, .product_panel5, .product_panel6, .product_panel7, .product_panel8{
     height: 315px;
     width: 98%;
     margin: 10px 16px;
@@ -284,6 +284,26 @@ p{
     padding: 16px;
 }
 
+.product_panel4 h2{
+    padding: 16px;
+}
+
+.product_panel5 h2{
+    padding: 16px;
+}
+
+.product_panel6 h2{
+    padding: 16px;
+}
+
+.product_panel7 h2{
+    padding: 16px;
+}
+
+.product_panel8 h2{
+    padding: 16px;
+}
+
 
 .img_panel{
     display: flex;
@@ -296,14 +316,14 @@ p{
     padding: 12px 0px 0px;
 }
 
-.pro_1, .pro_2, .pro_3, .pro_4, .pro_5, .pro_6, .pro_7, .pro_8, .pro_9, .pro_10, .pro_11, .pro_12, .pro_13, .pro_14, .pro_15, .pro_16, .pro_17, .pro_18, .pro_19, .pro_20, .pro_21{
+.pro_1, .pro_2, .pro_3, .pro_4, .pro_5, .pro_6, .pro_7, .pro_8, .pro_9, .pro_10, .pro_11, .pro_12, .pro_13, .pro_14, .pro_15, .pro_16, .pro_17, .pro_18, .pro_19, .pro_20, .pro_21, .pro_22, .pro_23, .pro_24, .pro_25, .pro_26, .pro_27, .pro_28, .pro_29, .pro_30, .pro_31, .pro_32, .pro_33, .pro_34, .pro_35, .pro_36, .pro_37, .pro_38, .pro_39, .pro_40, .pro_41, .pro_42, .pro_43, .pro_44, .pro_45, .pro_46, .pro_47, .pro_48, .pro_49, .pro_50, .pro_51, .pro_52, .pro_53, .pro_54, .pro_55, .pro_56 {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     height: 152px;
 }
 
-.img_1, .img_2, .img_3, .img_4, .img_5, .img_6, .img_7, .img_8, .img_9, .img_10, .img_11, .img_12, .img_13, .img_14, .img_15, .img_16, .img_17, .img_18, .img_19, .img_20, .img_21{
+.img_1, .img_2, .img_3, .img_4, .img_5, .img_6, .img_7, .img_8, .img_9, .img_10, .img_11, .img_12, .img_13, .img_14, .img_15, .img_16, .img_17, .img_18, .img_19, .img_20, .img_21, .img_22, .img_23, .img_24, .img_25, .img_26, .img_27, .img_28, .img_29, .img_30, .img_31, .img_32, .img_33, .img_34, .img_35, .img_36, .img_37, .img_38, .img_39, .img_40, .img_41, .img_42, .img_43, .img_44, .img_45, .img_46, .img_47, .img_48, .img_49, .img_50, .img_51, .img_52, .img_53, .img_54, .img_55, .img_56 {
     text-align: center;
     font-size: 0.85rem ;
 }
